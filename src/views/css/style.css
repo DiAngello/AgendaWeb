@@ -1,0 +1,191 @@
+body{
+    background-color: #EFEFEF;
+}
+.home{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+}
+.menu>img{
+    margin-top: 60px;
+    width: 130px;
+    height: 130px;
+}
+.menu>h1{
+    cursor: default;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.menu>p{
+    cursor: default;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    color: #989898;
+}
+.btn-iniciar{
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-iniciar:hover{
+    transform: scale(1.05);
+}
+footer{
+    display: flex;
+    background-color: #E7E5E5;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    color: #AFAFAF;
+}
+footer>p{
+    cursor: default;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.popup{
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E7E7;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 6px 13px 16px #AAAAAA;
+}
+.popup>img{
+    margin-top: 30px;
+    width: 90px;
+    height: 90px;
+}
+.popup>h2{
+    margin-top: 10px;
+    font-size: 21px;
+    cursor: default;
+}
+.popup>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#email{
+    width: 220px;
+    height: 34px;
+    margin-top: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}
+#senha{
+    margin-top: 20px;
+    width: 220px;
+    height: 34px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #A1A1A1;
+    padding-left: 15px;
+    font-size: 15px;
+}
+#checkbox-login{
+    margin-top: 10px;
+}
+.btn-login{
+    width: 128px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-login:hover{
+    transform: scale(1.05);
+}
+#cadastrar{
+    font-size: 13px;
+    margin-top: 20px;
+}
+#cadastrar>a{
+    color: #618DFF;
+}
+
+.box-cadastro{
+    background-color:#E7E7E7;
+    width: 400px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 6px 13px 16px #AAAAAA;
+}
+
+.box-cadastro>h2{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.box-cadastro>form{
+    display: flex;
+    flex-direction: column;
+}
+.nomeSobrenome{
+    width: 150px;
+    height: 34px;
+    margin-top: 20px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}
+#nome{
+    margin-right: 15px;
+}
+.dados{
+    width: 100%;
+    height: 34px;
+    margin-top: 20px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-cadastrar{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s;
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+    
+}
+.btn-cadastrar:hover{
+    transform: scale(1.05);
+}
