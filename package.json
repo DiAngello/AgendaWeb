@@ -11,5 +11,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Este repositório foi criado no intuito de armazenar o código do projeto final da disciplina de Desenvolvimento Web.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiAngello/appweb_agenda_contatos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DiAngello/appweb_agenda_contatos/issues"
+  },
+  "homepage": "https://github.com/DiAngello/appweb_agenda_contatos#readme"
 }
