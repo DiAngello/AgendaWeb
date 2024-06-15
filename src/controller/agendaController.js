@@ -14,7 +14,7 @@ function agendaView(req, res){
     res.render(`agenda.html`);
 }
 
-/*function loginConta(req, res) {
+function loginConta(req, res) {
     const email = req.body.email;
     const senha = req.body.senha;
     const validCredentials = validateCredentials(email, senha);
@@ -27,7 +27,7 @@ function agendaView(req, res){
         console.error("Login failed for user")
         res.render('login.html', { error: 'Email ou senha inválido' });
     }
-}*/
+}
 
 function cadastrarUsuario(req, res){
     let usuario = {
@@ -58,7 +58,7 @@ function cadastrarContato(req, res){
 
 module.exports = {
     indexView,
-    //loginConta,
+    loginConta,
     criarContaView,
     cadastrarUsuario,
     loginContaView,
