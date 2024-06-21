@@ -1,39 +1,30 @@
 const Usuario = require('../model/usuario');
 
-async function autenticar(req, res){
-    const usuario = await Usuario.findOne({ where: {
-        emailCadastro: req.body.emailCadastro, 
-        senhaCadastro: req.body.senhaCadastro}
-    });
-    if(usuario !== null){
-        req.session.autorizado = true;
-        req.session.usuario = usuario;
-        res.redirect('/home');
-    }
-    else{
-        let erro_autenticacao = true;
-        res.render('index.html', {erro_autenticacao});
+async function autenticar(req, res) {
+    const { email, senha } = req.body; 
+
+    console.log(`Recebido - Email: ${email}, Senha: ${senha}`);
+
+    try {
+        const usuario = await Usuario.findOne({ where: { emailCadastro: email, senhaCadastro: senha } });
+
+        if (usuario) {
+            console.log('Usuário autenticado:', usuario);
+            res.redirect('/agenda');
+        } else {
+            console.log('Usuário não encontrado ou senha incorreta');
+            res.send('Usuário não encontrado ou senha incorreta');
+        }
+    } catch (error) {
+        console.error('Erro durante a autenticação:', error);
+        res.status(500).send('Erro interno do servidor');
     }
 }
-
-function verificarAutenticacao(req, res, next) {
-    if(req.session.autorizado){
-        console.log("usuário autorizado");
-        next();
-    }
-    else{
-        console.log("usuário NÃO autorizado");
-        res.redirect('/');
-    }   
-}
-
 function sair(req, res) {
-    req.session.destroy();
     res.redirect('/');
 }
 
 module.exports = {
     autenticar,
-    verificarAutenticacao,
     sair
-}
+};

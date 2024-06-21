@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda Contatos Web</title>
-    <base href="http://localhost:8080/">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -13,7 +12,7 @@
 </head>
 <body>
     <header class="header-agenda">
-        <a class="btn-main" href="/agenda">
+        <a class="btn-main" href="agenda.html">
             <h2>Agenda de Contatos Web</h2>
         </a>
         <div class="user-section" onclick="toggleMenu()">
@@ -30,18 +29,17 @@
                 <h4>Listas</h4>
                 <button class="adicionar-lista" id="btnAdicionarLista">
                     <img src="assets/botao-adicionar 1.png" alt="Botão para criar outra lista">
-                </button>              
+                </button>                
             </header>
             
             <div class="form-lista" id="formLista">
-                <p><input type="text" id="nomeLista" placeholder="Nome da Lista"></p>
-                <p><input type="text" id="descricaoLista" placeholder="Descrição da Lista"></p>
-                <p><button id="btnSalvarLista">Salvar Lista</button></p>
+                <input type="text" id="nomeLista" placeholder="Nome da Lista">
+                <input type="text" id="descricaoLista" placeholder="Descrição da Lista">
+                <button id="btnSalvarLista">Salvar Lista</button>
             </div>
             
-            <div class="contato" id="listas"></div>
+            <div id="listas"></div>
         </div>
-        
         <div class="busc-contatos">
             <div class="submit-line">
                 <form action="/buscar_contatos" method="get">
@@ -49,25 +47,44 @@
                     <button class="submit-lente" type="submit">
                         <i class="fa fa-search"></i>
                     </button>
-                        <br>
-                        <br>
-                        {{#busca_contato}}
-                        <div  class="listas">
-                            <a href="/contato/{{id}}" style="text-align: center;">{{ nomeContato }} {{ sobrenomeContato }}</a>
-                        </div>
-                       {{/busca_contato}}
-                        
                 </form>
             </div>
         </div>
-        <div class="opcoes">
-            <a href="/contato" class="criar-contato">
-                <img src="assets/adicionar.png" alt="botão para criar um contato">
-            </a>
-            <div class="contats"></div>
-        </div>
         
+        <div class="opcoes">
+            <form action="/cadastrar_contato" method="post">
+                <h4>Detalhes de Contato</h4>
+                <p>
+                    <input type="text" name="name" id="name" placeholder="Nome">
+                </p>
+                <p>
+                    <input type="text" name="lastname" id="lastname" placeholder="Sobrenome">
+                </p>
+                <p>
+                    <input type="tel" name="nmrtelefone" id="nmrtelefone" placeholder="Número de telefone">
+                </p>
+                <p>
+                    <input type="email" name="email-contato" id="email-contato" placeholder="Email">
+                </p>
+                <p>
+                    <input type="text" name="datanascimento" id="datanascimento" placeholder="Data de nascimento">
+                </p>
+                <p>
+                    <select name="lista" id="lista">
+                        <option value="">Selecione a Lista</option>
+                        {{#listas}}
+                            <option value="{{id}}">{{nomeLista}}</option>
+                        {{/listas}}
+                    </select>
+                </p>
+                <p>
+                    <button type="submit">OK</button>
+                </p>
+            </form>
+        </div>
+    
     </div>
     <script src="script.js"></script>
+
 </body>
 </html>
