@@ -99,27 +99,32 @@ Para executar esse projeto localmente, siga as instruções abaixo:
 <!-- USAGE EXAMPLES -->
 ## Uso
 
-1. **Cadastro:**
-   - Na página inicial, clique em "Cadastrar" para criar uma nova conta de usuário.
+1. **Inicio**
+   - Na página inicial, clique em "Iniciar Sessão" para acessar o sistema.
+     
+2. **Cadastro:**
+   - Na página Inicio da Sessão, clique em "Não tem um login? Cadastre-se agora!" para criar uma nova conta de usuário.
    - Preencha o formulário com suas informações e clique em "Cadastrar".
 
-2. **Login:**
-   - Na página inicial, insira seu nome de usuário e senha nos campos apropriados e clique em "Login".
+3. **Login:**
+   - Na página Inicio da Sessão, insira seu email e senha nos campos apropriados e clique em "Login".
 
-3. **Gerenciamento de contatos:**
+4. **Gerenciamento de contatos:**
    - Após fazer login, você será redirecionado para a página principal, onde poderá:
-     - **Adicionar contato:** Clique em "Adicionar Contato", preencha os dados do contato e clique em "Salvar".
-     - **Editar contato:** Clique no botão "Editar" ao lado do contato que deseja alterar, modifique os dados e clique em "Salvar".
-     - **Excluir contato:** Clique no botão "Excluir" ao lado do contato que deseja remover.
+     - **Adicionar lista:** Clique no símbolo "+" ao lado de lista, escolha um nome e descrição e clique em "Salvar lista".
+     - **Adicionar contato:** Clique no símbolo "+", preencha os dados do contato e clique em "Ok".
+     - **Buscar contato:** No campo "Buscar contatos", escreva e busque o contato.
      - **Visualizar detalhes:** Clique no nome do contato para ver mais informações sobre ele.
-
+     - **Editar contato:** Após buscar e clicar no contato, modifique os dados e clique em "Salvar alterações".
+     - **Excluir contato:** No mesmo formulário, clique no botão "Excluir contato" para remover o contato selecionado.
+    
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <!-- CONTACT -->
 ## Contatos
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Andressa de Souza - aka DiAngello - andressa.gabrielly.ofc@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Link do projeto: [https://github.com/DiAngello/AgendaWeb/](hthttps://github.com/DiAngello/AgendaWeb/)
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
