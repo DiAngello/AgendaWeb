@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DiAngello/AgendaWeb">
-    <img src="src/views/assets/logo.png" alt="Logo" >
+    <img src="src/views/assets/logo.pn" alt="Logo" >
   </a>
 
   <h3 align="center">Agenda Web</h3>
@@ -74,20 +74,24 @@ Para executar esse projeto localmente, siga as instruções abaixo:
    ```sh
    git clone https://github.com/DiAngello/AgendaWeb/.git
    ```
+   
 2.  Navegue até o diretório do projeto:
     ```sh
     cd AgendaWeb
     ```
+    
 3.  Instale as dependências:
     ```sh
     npm install  # ou yarn install
     ```
 4.  Configure o banco de dados:
     - O projeto utiliza o SQLite, que não requer configuração adicional. O arquivo `database.sqlite` será criado automaticamente na raiz do projeto.
+      
 5.  Execute o servidor:
     ```sh
     node index.js # ou npm start
     ```
+    
 6.  Acesse o aplicativo no seu navegador em `http://localhost:8080`.
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
@@ -95,9 +99,19 @@ Para executar esse projeto localmente, siga as instruções abaixo:
 <!-- USAGE EXAMPLES -->
 ## Uso
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. **Cadastro:**
+   - Na página inicial, clique em "Cadastrar" para criar uma nova conta de usuário.
+   - Preencha o formulário com suas informações e clique em "Cadastrar".
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+2. **Login:**
+   - Na página inicial, insira seu nome de usuário e senha nos campos apropriados e clique em "Login".
+
+3. **Gerenciamento de contatos:**
+   - Após fazer login, você será redirecionado para a página principal, onde poderá:
+     - **Adicionar contato:** Clique em "Adicionar Contato", preencha os dados do contato e clique em "Salvar".
+     - **Editar contato:** Clique no botão "Editar" ao lado do contato que deseja alterar, modifique os dados e clique em "Salvar".
+     - **Excluir contato:** Clique no botão "Excluir" ao lado do contato que deseja remover.
+     - **Visualizar detalhes:** Clique no nome do contato para ver mais informações sobre ele.
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
