@@ -3,16 +3,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/DiAngello/AgendaWeb">
-    <img src="https://github.com/DiAngello/AgendaWeb/blob/main/src/views/assets/logo.png" alt="Logo" >
+    <img src="src/views/assets/logo.png" alt="Logo" >
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Agenda Web</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
+    Um sistema simples de agenda de contatos Web.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     &middot;
