@@ -6,7 +6,7 @@
     <img src="src/views/assets/logo.png" alt="Logo" >
   </a>
 
-  <h3 align="center">Agenda Web</h3>
+  <h3 align="center">Agenda Web 📒</h3>
 
   <p align="center">
     Um sistema simples de Agenda de Contatos Web.
@@ -39,7 +39,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## Sobre o projeto
+## Sobre o projeto 💡
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -48,7 +48,7 @@ O projeto Agenda Web é uma aplicação simples para gerenciar contatos. Ele per
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <!-- BUILT WITH -->
-### Tecnologias
+### Tecnologias 🚀
 
 * ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
@@ -59,16 +59,16 @@ O projeto Agenda Web é uma aplicação simples para gerenciar contatos. Ele per
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <!-- GETTING STARTED -->
-## Como iniciar
+## Como iniciar ▶️
 
 Para executar esse projeto localmente, siga as instruções abaixo:
 
-### Pré-requisitos
+### Pré-requisitos ✅
 
 * NodeJS
 * npm ou yarn
 
-### Instalação
+### Instalação 📦
 
 1. Clone o repositório:
    ```sh
@@ -84,20 +84,19 @@ Para executar esse projeto localmente, siga as instruções abaixo:
     ```sh
     npm install  # ou yarn install
     ```
-4.  Configure o banco de dados:
-    - O projeto utiliza o SQLite, que não requer configuração adicional. O arquivo `database.sqlite` será criado automaticamente na raiz do projeto.
-      
-5.  Execute o servidor:
+4.  Execute o servidor:
     ```sh
     node index.js # ou npm start
     ```
     
-6.  Acesse o aplicativo no seu navegador em `http://localhost:8080`.
+5.  Acesse o aplicativo no seu navegador em `http://localhost:8080`.
+
+🚨 **O projeto utiliza o SQLite, que não requer configuração adicional. O arquivo `database.sqlite` será criado automaticamente na raiz do projeto.**
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Uso
+## Uso 📌
 
 1. **Inicio**
    - Na página inicial, clique em "Iniciar Sessão" para acessar o sistema.
@@ -121,7 +120,7 @@ Para executar esse projeto localmente, siga as instruções abaixo:
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 <!-- CONTACT -->
-## Contatos
+## Contatos 🌟
 
 Andressa de Souza - aka DiAngello - andressa.gabrielly.ofc@gmail.com
 
