@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DiAngello/AgendaWeb">
-    <img src="src/views/assets/logo.png" alt="Logo" >
+    <img src="https://github.com/DiAngello/AgendaWeb/blob/main/src/views/assets/logo.png" alt="Logo" >
   </a>
 
   <h3 align="center">Agenda Web 📒</h3>
