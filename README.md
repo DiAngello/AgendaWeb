@@ -41,7 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto 💡
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Agenda Web Demo](src/views/assets/gifagenda.gif)
 
 O projeto Agenda Web é uma aplicação simples para gerenciar contatos. Ele permite adicionar, editar e excluir contatos, além de oferecer um sistema de autenticação de usuários.
 
